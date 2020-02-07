@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            width: 600px;
+            margin: auto;
+        }
+        .title {
+            border-bottom: 1px solid black;
+            width: 200px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+/*            background-image: url();*/
+        }
+        .block {
+            display: flex;
+        }
+        .left {
+            display: flex;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+        .right{
+            width: 300px;
+        }
+        .list {
+            margin: 0;
+            padding: 0;
+        }
+        .list-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .param {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+      <div class="main">
+          <div class="title">Основная информация</div>
+          <div class="block">
+              <div class="left">
+                  <div class="avatar"></div>
+              </div>
+              <div class="right">
+                  <ul class="list">
+                      <li class="list-item">
+                          <div class="param">Меня зовут</div>
+                          <div class="res">Гомер</div>
+                      </li>
+                      <li class="list-item">
+                          <div class="param">Мой возраст</div>
+                          <div class="res">45 лет</div>
+                      </li>
+                      <li class="list-item">
+                          
+                      </li>
+                      <li class="list-item">
+                          
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+   
+</body>
+</html>
